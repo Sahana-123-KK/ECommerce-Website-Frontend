@@ -1,0 +1,148 @@
+.cartpageflexxrow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  /* width: 50vw; */
+  /* height: 100vh; */
+  width: 100%;
+  overflow-y: auto;
+
+  background-color: whitesmoke;
+}
+.cartpageflexxrownothing {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  /* width: 50vw; */
+  /* height: 100vh; */
+  width: 100%;
+}
+.flexxcolsumcart {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px;
+}
+.flexxrowcarttotalsum {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+.checkoutbtn {
+  border: none;
+  background-color: rgb(115, 115, 190);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  width: 30%;
+}
+.cartpageinnerflexxcol {
+  display: flex;
+  padding: 20px;
+
+  flex-direction: column;
+  width: 55vw;
+  border-radius: 10px;
+  justify-content: space-around;
+  background-color: white;
+}
+.flexxcolcartitemscontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.emptycart {
+  border: none;
+  background-color: transparent;
+  color: red;
+  margin-top: 20px;
+}
+.enteraddress {
+  width: 70%;
+  padding: 10px;
+  margin: 5px 0px;
+}
+
+.flexxcoladdressdiv {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  margin: 10px 0px;
+}
+
+.addaddress {
+  /* color: skyblue; */
+}
+.flexxbtnalign {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: flex-start;
+  margin: 10px 0px;
+}
+
+.orderplacebtn {
+  border: none;
+  background-color: rgb(115, 115, 190);
+  color: white;
+  border-radius: 5px;
+  padding: 10px 10px;
+  /* width: 20%; */
+}
+
+@media screen and (max-width: 1000px) {
+  .cartpageinnerflexxcol {
+    width: 90vw;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .checkoutbtn {
+    width: fit-content;
+  }
+  .orderplacebtn {
+    width: fit-content;
+  }
+  .enteraddress {
+    width: 95%;
+  }
+  .cartproname {
+    font-size: 115%;
+  }
+  .flexxrowcartcard i {
+    font-size: 110%;
+  }
+  .desccartinfo {
+    font-size: 95%;
+  }
+}
+@media screen and (max-width: 300px) {
+  .desccartinfo {
+    font-size: 85%;
+  }
+  .cartcardimg {
+    width: 40%;
+  }
+  .cartproname {
+    font-size: 100%;
+  }
+  .cartpageinnerflexxcol{
+    padding: 10px;
+  }
+  .flexxrowcartcard  i{
+    font-size: 95%;
+  }
+  .subhead, .costcarttotal{
+    font-size: 100%;
+  }
+  .checkoutbtn{
+    padding: 5px 20px;
+  }
+}

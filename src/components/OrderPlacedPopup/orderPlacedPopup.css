@@ -1,0 +1,135 @@
+.flexxcolplaceorderpopup{
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    height: 60vh;
+    position: fixed;
+    top: 20vh;
+    left: 20vw;
+    padding: 20px;
+    align-items: center;
+    background-color: #f1f0ed;
+    border-radius: 10px;
+    overflow-y: auto;
+    justify-content: flex-end;
+}
+
+.placedordericon{
+    font-size: 700%;
+    color:green;
+
+}
+.headplaced, .addressorderplace2 ,.datedeliver{
+    color: green;
+}
+
+.btnorderplacepage{
+    border: none;
+    background-color: rgb(115, 115, 190);;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 10px;
+    margin: 20px 0px;
+    /* width: 20%; */
+}
+
+
+@media screen and (max-width:1000px){
+
+    .flexxcolplaceorderpopup{
+        width: 70vw;
+        height: 36vh;
+        justify-content: center;
+        left: 15vw;
+        top: 32vh;
+    }
+}
+
+
+
+@media screen and (max-width:600px){
+
+    .flexxcolplaceorderpopup{
+        width: 80vw;
+        height: 60vh;
+        justify-content: center;
+        left: 10vw;
+        top: 20vh;
+    }
+    .headplaced{
+        font-size: 130%;
+    }
+    .placedordericon{
+        font-size: 450%;
+    }
+    .datedeliver{
+        font-size: 110%;
+    }
+    .addressorderplace2{
+        font-size: 100%;
+    }
+}
+
+
+@media screen and (max-width:450px){
+
+
+.flexxcolplaceorderpopup {
+    width: 90vw;
+    left: 5vw;
+    height: 40vh;
+    top: 30vh;
+}
+.headplaced {
+    font-size: 100%;
+}
+.placedordericon{
+    font-size: 400%;
+}
+.datedeliver{
+    font-size: 95%;
+}
+.addressorderplace2{
+    font-size: 90%;
+}
+}
+
+@media screen and (max-width:370px){
+    .headplaced {
+        font-size: 95%;
+    }
+    .placedordericon{
+        font-size: 400%;
+    }
+    .datedeliver{
+        font-size: 90%;
+    }
+    .addressorderplace2{
+        font-size: 87%;
+    }
+
+}
+
+
+@media screen and (max-width:300px){
+    .flexxcolplaceorderpopup {
+        width: 100vw;
+        left: 0vw;
+        height: 40vh;
+        top: 30vh;
+        padding: 0px;
+    }
+    .headplaced {
+        font-size: 90%;
+    }
+    .placedordericon{
+        font-size: 400%;
+    }
+    .datedeliver{
+        font-size: 88%;
+    }
+    .addressorderplace2{
+        font-size: 87%;
+    }
+
+}
